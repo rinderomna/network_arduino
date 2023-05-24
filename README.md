@@ -1,6 +1,15 @@
 # Laboratório Camada de Enlace
 Repositório para o Laboratório Camada de Enlace, da disciplina "SSC0142 - Redes de Computadores" do ICMC - USP - São Carlos, ministrada pela professora Kalinka Regina Lucas Jaquie Castelo Branco.
 
+## Grupo 6
+Somos o grupo 6 (emissor / paridade ímpar) e pretendemos nos comunicar com o grupo 29 (receptor / paridade ímpar).
+| **NUSP** | **Membro do Grupo 6**    |
+|----------|--------------------------|
+| 12543544 | Danielle Modesti         |
+| 10310227 | Hélio Nogueira Cardoso   |
+| 10691331 | Theo da Mota dos Santos  |
+
+
 ## Objetivo
 Realizar uma comunicação síncrona entre duas plataformas Arduino.
 
