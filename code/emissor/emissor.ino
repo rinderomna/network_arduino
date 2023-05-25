@@ -31,9 +31,9 @@ void setup(){
   // Configura porta serial (Serial Monitor - Ctrl + Shift + M)
   Serial.begin(9600);
   // Inicializa TX ou RX
-  //>>>> Codigo Aqui <<<<
+  pinMode(PINO_TX, OUTPUT);
   // Configura timer
-  //>>>> Codigo Aqui <<<<
+  configuraTemporizador(BAUD_RATE);
   // habilita interrupcoes
   interrupts();
 }
