@@ -1,4 +1,3 @@
-
 #define PINO_RX 13
 #define PINO_TX 13
 #define BAUD_RATE 1
@@ -8,7 +7,15 @@
 
 // Calcula bit de paridade - Par ou impar
 bool bitParidade(char dado){
+    int asciiValue = (int)dado;  // Convert char to ASCII value
+    int countOnes = 0;
 
+    while (asciiValue > 0) {
+        countOnes += (asciiValue % 2);  // Check the least significant bit
+        asciiValue >>= 1;  // Right shift by 1 to get the next bit
+    }
+
+    return countOnes % 2 == 0;
 }
 
 // Rotina de interrupcao do timer1
