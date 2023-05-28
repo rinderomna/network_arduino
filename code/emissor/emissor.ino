@@ -1,10 +1,14 @@
+// Emissor Impar 
+// Codigo por Grupo 6:
+// * Danielle Modesti - NUSP: 12543544
+// * Helio Nogueira Cardoso - NUSP: 10310227
+// * Theo da Mota dos Santos - NUSP: 10691331
 #include "Temporizador.h"
 
 #define PINO_TX 13 // Emissor envia dados por esse pino
 #define PINO_RTS_OUT 8 // O emissor seta o RTS
 #define PINO_CTS_IN 9 // O receptor seta o CTS
 #define BAUD_RATE 1
-#define HALF_BAUD 1000/(2*BAUD_RATE)
 
 // Ultimo caractere lido do Serial Monitor para ser transmitido via USB
 char c;
